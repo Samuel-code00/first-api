@@ -1,0 +1,63 @@
+.btn{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    color: #625ac4;
+}
+
+.btn1{
+    width: 100px;
+    height: 30px;
+    background-color: #625ac4;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #625ac4;
+}
+
+#bored{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    box-sizing: border-box;
+    width: 800px;
+    height: 500px;
+    padding-top: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: #625ac4;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.text{
+    width: 600px;
+    text-align: center;
+    /* text-align-last: center; */
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
